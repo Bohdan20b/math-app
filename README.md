@@ -22,3 +22,11 @@ Based on 3-layer architecture:
 2. Open [pom.xml](pom.xml) and reload all maven projects.
 3. Open [application.properties](src/main/resources/application.properties) and set your credentials.
 4. Build project.
+
+### 🧰 *Application technologies:*
+* **[JDK 11 or higher](https://www.oracle.com/cis/java/technologies/javase/jdk11-archive-downloads.html)**
+* **[Apache Maven](https://maven.apache.org/download.cgi)**
+* **[Spring Boot](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter/3.0.1)**
+* **[MySQL](https://dev.mysql.com/downloads/workbench/)**
+* **[Spring Web](https://mvnrepository.com/artifact/org.springframework/spring-web/5.2.22.RELEASE)**
+
