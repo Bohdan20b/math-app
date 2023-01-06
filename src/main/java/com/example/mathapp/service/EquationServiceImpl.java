@@ -21,12 +21,12 @@ public class EquationServiceImpl implements EquationService {
     @Override
     public Equation create(String input) {
         try {
-                Equation equation = new Equation();
-                Expression expression = new Expression(input);
-                EvaluationValue result = expression.evaluate();
-                equation.setInput(input);
-                equation.setResult(result.getNumberValue().doubleValue());
-                return equation;
+            Equation equation = new Equation();
+            Expression expression = new Expression(input);
+            EvaluationValue result = expression.evaluate();
+            equation.setInput(input);
+            equation.setResult(result.getNumberValue().doubleValue());
+            return equation;
         } catch (EvaluationException | ParseException e) {
             throw new RuntimeException("Can't create an expression.", e);
         }

@@ -1,7 +1,6 @@
 package com.example.mathapp.service;
 
 import com.example.mathapp.model.Equation;
-import java.math.BigDecimal;
 import java.util.List;
 import org.springframework.stereotype.Service;
 

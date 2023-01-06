@@ -10,10 +10,11 @@ public class BracketsValidator {
         char[] brackets = text.replaceAll("[^()]+","").toCharArray();
         Stack<Character> stack = new Stack<>();
         for (char c : brackets) {
-            if (c == '(')
+            if (c == '(') {
                 stack.push(')');
-            else if (stack.isEmpty() || stack.pop() != c)
+            } else if (stack.isEmpty() || stack.pop() != c) {
                 return false;
+            }
         }
         return stack.isEmpty();
     }

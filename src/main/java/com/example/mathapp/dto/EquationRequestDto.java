@@ -1,6 +1,5 @@
 package com.example.mathapp.dto;
 
-import java.math.BigDecimal;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
